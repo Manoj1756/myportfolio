@@ -32,7 +32,11 @@ function Home() {
                                 <a href="https://www.linkedin.com/in/manoj-b-731356191/" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
                             </div>
                         </IconContext.Provider>
-        
+                        <IconContext.Provider value={{ color: "white", size: "2em" }}>
+                            <div className="p-2 rounded-full bg-blue-600 hover:-translate-y-1  duration-200">
+                                <a href="https://www.facebook.com/profile.php?id=100007529297281" target="_blank" rel="noreferrer"><FaFacebookF /></a>
+                            </div>
+                        </IconContext.Provider>                         
                         <IconContext.Provider value={{ color: "white", size: "2em" }}>
                             <div className="p-2 rounded-full bg-sky-500 hover:-translate-y-1  duration-200">
                                 <a href="https://twitter.com/manojgowdaa18" target="_blank" rel="noreferrer"> <FaTwitter /></a>
